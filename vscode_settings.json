@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+
+  "workbench.editor.enablePreview": false,
+
+  "prettier.singleQuote": true,
+  "terminal.integrated.shell.windows": "C:\\Users\\thomas.gardner\\AppData\\Local\\Programs\\Git\\bin\\bash.exe"
+}
