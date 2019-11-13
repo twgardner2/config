@@ -6,6 +6,5 @@
   "workbench.editor.enablePreview": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.rendererType": "dom",
-  "prettier.singleQuote": true,
   "editor.renderWhitespace": "all"
 }
