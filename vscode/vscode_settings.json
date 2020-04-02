@@ -6,5 +6,6 @@
   "workbench.editor.enablePreview": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.rendererType": "dom",
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80]
 }
