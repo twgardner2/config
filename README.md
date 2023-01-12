@@ -81,11 +81,19 @@ parse_git_branch() {
 }
 ```
 
+* Single line:
+  <pre>[<font color="#C01C28"><b>tom</b></font>:<font color="#E9AD0C"><b>~/Documents/portfolio</b></font><font color="#D0CFCC"><b> (awk)</b></font>]$</pre>
+  ```
+  export PS1="[\[\e[1;31m\]\u\[\e[00m\]:\[\e[1;93m\]\w\[\e[1;37m\]\$(parse_git_branch)\[\e[00m\]]$ "
+  ```
+
+
 * Full date on top of multiline prompt:
   <pre>Thu 12 Jan 2023 01:09:40 PM EST
   [<font color="#C01C28"><b>tom</b></font>:<font color="#E9AD0C"><b>~/Documents/portfolio</b></font><font color="#D0CFCC"><b> (awk)</b></font>]$ </pre>
-    `export PS1="\n\D{%c}\n[\[\e[1;31m\]\u\[\e[00m\]:\[\e[1;93m\]\w\[\e[1;37m\]\$(parse_git_branch)\[\e[00m\]]$ "`
-
+  ```
+  export PS1="\n\D{%c}\n[\[\e[1;31m\]\u\[\e[00m\]:\[\e[1;93m\]\w\[\e[1;37m\]\$(parse_git_branch)\[\e[00m\]]$ "
+  ```
 
 
 ## Updating Linux Kernel
