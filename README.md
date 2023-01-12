@@ -2,6 +2,10 @@
 
 ## Terminal PS1 Prompt Variable
 
+References:  
+  * [https://www.baeldung.com/linux/customize-bash-prompt](https://www.baeldung.com/linux/customize-bash-prompt)
+  * [https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/](https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/)
+
 System-wide definition in `/etc/bash.bashrc`. Can customize in `~/.bashrc`.  Prompt variables are:
 
   * `PS1`: Normal prompt
@@ -11,7 +15,6 @@ System-wide definition in `/etc/bash.bashrc`. Can customize in `~/.bashrc`.  Pro
 
 There is also a `PROMPT_COMMAND` that can be useful.
 
-Reference: [https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/](https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/)
 
 ### Colors
 
