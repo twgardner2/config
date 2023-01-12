@@ -5,6 +5,7 @@
 References:  
   * [https://www.baeldung.com/linux/customize-bash-prompt](https://www.baeldung.com/linux/customize-bash-prompt)
   * [https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/](https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/)
+  * [https://misc.flogisoft.com/bash/tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 System-wide definition in `/etc/bash.bashrc`. Can customize in `~/.bashrc`.  Prompt variables are:
 
